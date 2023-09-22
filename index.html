@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Spotify - Web Player: Music for everyone</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="center">
+        <div class="sidebar">
+          <div class="nav">
+            <div class="nav-option nav-home">
+              <i class="fa-solid fa-house"></i>
+              Home
+            </div>
+            <div class="nav-option nav-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              Search
+            </div>
+          </div>
+
+          <div class="library">
+            <div class="library-opt">
+              <div class="library-opt1">
+                <img src="./assets/library_icon.png" alt="l" />
+                Your Library
+              </div>
+              <div class="library-opt2">
+                <i class="fa-solid fa-plus"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+            <div class="library-box">
+              <div class="library-box-fir">
+                <p class="p-head">Create your first playlist</p>
+                <p>its easy, we will help you.</p>
+                <button>Create Playlist</button>
+              </div>
+              <div class="library-box-fir">
+                <p class="p-head">Let's find some podcasts to follow</p>
+                <p>We will keep you updated on new episode</p>
+                <button>Browse podcasts</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contant">
+          <div class="header">
+            <div class="for-back">
+              <div class="circle f-back">
+                <img src="./assets/backward_icon.png" alt="back" />
+              </div>
+              <div class="circle f-for hide">
+                <img src="./assets/forward_icon.png" alt="for" />
+              </div>
+            </div>
+            <div class="header-button">
+              <button class="h-b-white hide">Explore Premium</button>
+              <button class="h-b-black">
+                <i class="fa-solid fa-download"></i> Install App
+              </button>
+              <div id="user" class="circle">
+                <i class="fa-solid fa-user"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-menu">
+            <h2>Recently added</h2>
+            <div class="card-container">
+              <div class="card">
+                <img src="./assets/card1img.jpeg" alt="img" />
+                <div class="card-text">
+                  <h4>Top 50-Global</h4>
+                  <p>Your daily update of the most played track right...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-menu">
+            <h2>Recommended for you</h2>
+            <div class="card-container">
+              <div class="card">
+                <img src="./assets/card2img.jpeg" alt="img" />
+                <div class="card-text">
+                  <h4>Mahiya Jinna Sona</h4>
+                  <p>Your daily update of the most played track right...</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/card3img.jpeg" alt="img" />
+                <div class="card-text">
+                  <h4>Mere Pass Tum Ho</h4>
+                  <p>Your daily update of the most played track right...</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/card4img.jpeg" alt="img" />
+                <div class="card-text">
+                  <h4>Alter Ego</h4>
+                  <p>Your daily update of the most played track right...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-menu">
+            <h2>Top Trending this week</h2>
+            <div class="card-container">
+              <div class="card">
+                <img src="./assets/card5img.jpeg" alt="img" />
+                <div class="card-text">
+                  <h4>Top Songs Global</h4>
+                  <p>Your daily update of the most played track right...</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/card1img.jpeg" alt="img" />
+                <div class="card-text">
+                  <h4>Top 50-Global</h4>
+                  <p>Your daily update of the most played track right...</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/card6img.jpeg" alt="img" />
+                <div class="card-text">
+                  <h4>Top Songs Indian</h4>
+                  <p>Your daily update of the most played track right...</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./assets/card1img.jpeg" alt="img" />
+                <div class="card-text">
+                  <h4>Top 50-Global</h4>
+                  <p>Your daily update of the most played track right...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer">
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="player">
+        <div class="album hide">
+          <img src="./assets/card3img.jpeg" alt="" />
+          <div class="album-title">
+            <p>Mere pass tum ho</p>
+            Rahat fateh ali khan
+          </div>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-regular fa-rectangle-list"></i>
+        </div>
+
+        <div class="play">
+          <div class="pause">
+            <img src="./assets/player_icon1.png" alt="" />
+            <img src="./assets/player_icon2.png" alt="" />
+            <img src="./assets/play_musicbar.png" class="musicbar" alt="" />
+            <img src="./assets/player_icon4.png" alt="" />
+            <img src="./assets/player_icon5.png" alt="" />
+          </div>
+          <div class="time">00.00<input type="range" />02.37</div>
+        </div>
+
+        <div class="setting hide">
+          <i class="fa-solid fa-play"></i>
+          <i class="fa-solid fa-microphone"></i>
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-regular fa-bookmark"></i>
+          <i class="fa-solid fa-volume-high"></i>
+          <input type="range" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
